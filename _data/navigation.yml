@@ -1,0 +1,5 @@
+main:
+  - title: "Categories"
+    url: /categories/
+  - title: "Archive"
+    url: /year-archive/
