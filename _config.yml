@@ -13,6 +13,7 @@ url: "https://otaviocc.github.io"
 atom_feed:
   path: "feed.xml"
 repository: otaviocc/otaviocc.github.io
+timezone: Europe/Berlin
 
 # Site Author
 author:
@@ -20,8 +21,16 @@ author:
   avatar: "/assets/avatars/otavio.jpg"
   bio: "This my space for Random Notes on Swift, Objective-C, TDD, Cats, LEGO and Coffee…"
   location: "Germany"
-  github: "otaviocc"
-  twitter: "otaviocc"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/otaviocc"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/otaviocc"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://mastodon.social/@otaviocc"
 
 # Reading Files
 exclude:
