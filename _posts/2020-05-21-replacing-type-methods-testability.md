@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  How to replace type methods in Swift to improve testability
-date:   2020-05-22 12:00:00 -0100
+date:   2020-05-21 12:00:00 -0100
 category: Programming
 ---
 
