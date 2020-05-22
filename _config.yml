@@ -1,3 +1,5 @@
+
+# Build settings
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default"
 
@@ -10,6 +12,7 @@ description: ""
 url: "https://otaviocc.github.io"
 atom_feed:
   path: "feed.xml"
+repository: otaviocc/otaviocc.github.io
 
 # Site Author
 author:
@@ -66,8 +69,10 @@ paginate_path: /page:num/
 
 # Plugins (previously gems:)
 plugins:
+  - jekyll-include-cache
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
   - jekyll-gist
   - jekyll-feed
   - jemoji
@@ -76,6 +81,7 @@ plugins:
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
   - jekyll-gist
   - jekyll-feed
   - jemoji
