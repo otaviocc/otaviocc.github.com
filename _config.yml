@@ -11,7 +11,7 @@ name: "Otavio Cordeiro"
 description: ""
 url: "https://otaviocc.github.io"
 atom_feed:
-  path: "feed.xml"
+  path: "https://otaviocc.github.io/feed.xml"
 repository: otaviocc/otaviocc.github.io
 timezone: Europe/Berlin
 
@@ -72,7 +72,7 @@ sass:
   style: compressed
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /:year/:month/:day/:slug
 paginate: 10
 paginate_path: /page:num/
 

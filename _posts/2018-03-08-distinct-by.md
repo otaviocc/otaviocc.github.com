@@ -5,9 +5,9 @@ date:   2018-03-08 14:00:00 -0100
 category: Programming
 ---
 
-A few months ago I was working on a new feature for the new iOS app we're building at work and when I finished it I decided to the check how the Android team had implemented the same functionality, to make sure we had both apps with the same behavior implemented.
+A few months ago I was working on a new feature for the new iOS app we're building at work and when I finished it I decided to the check how the Android team had implemented the same functionality, to make sure both apps had exactly the same behavior implemented. 
 
-Both apps had the same behavior implemented, but the implementations were completely different. Since the Swift implementation was shorter and easier to read, I decided to give Kotlin a try and refactored the Android code to be *closer* to the code we have on iOS.
+And they did; both apps had the same behavior implemented, but the implementations were completely different. Since the Swift implementation was shorter and easier to read, I decided to give Kotlin a try and refactored the Android code to be *closer* to the code we have on iOS.
 
 When working on the Android code I learned about Kotlin's [distinctBy](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/distinct-by.html) method,
 
@@ -57,4 +57,4 @@ let words = ["some", "case", "cat", "do", "dog", "it"].distinctBy(\.count)
 // ["some", "cat", "do"]
 ```
 
-Not complex, but a nice snippet to have around.
+Not complex, but a great tool to have in the utility belt.
