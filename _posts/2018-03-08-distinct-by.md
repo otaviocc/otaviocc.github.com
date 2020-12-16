@@ -1,5 +1,4 @@
 ---
-layout: single
 title:  Kotlin's distinctBy in Swift
 date:   2018-03-08 14:00:00 -0100
 category: Programming

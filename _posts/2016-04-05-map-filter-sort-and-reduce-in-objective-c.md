@@ -1,5 +1,4 @@
 ---
-layout: single
 title:  Map, Filter, Sort, and Reduce in Objective-C
 date:   2016-04-05 12:00:00 -0100
 category: Programming

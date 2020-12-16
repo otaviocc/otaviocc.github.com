@@ -1,133 +1,30 @@
+title: Random Notes
+description: "This my space for Random Notes on Swift, Objective-C, TDD, Cats, LEGO and Coffee…"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://otaviocc.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+twitter_username: otaviocc
+github_username:  otaviocc
+mastodon:
+ - username: otaviocc
+   instance: mastodon.social
 
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dark"
+remote_theme: jekyll/minima
+minima:
+  skin: dark
 
-# Site Settings
-locale: "en-US"
-title: "Random Notes"
-title_separator: "-"
-name: "Otavio Cordeiro"
-description: ""
-url: "https://otaviocc.github.io"
-atom_feed:
-  path: "https://otaviocc.github.io/feed.xml"
-repository: otaviocc/otaviocc.github.io
-timezone: Europe/Berlin
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
 
-# Site Author
-author:
-  name: "Otavio Cordeiro"
-  avatar: "/assets/avatars/otavio.jpg"
-  bio: "This my space for Random Notes on Swift, Objective-C, TDD, Cats, LEGO and Coffee…"
-  location: "Germany"
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/otaviocc"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/otaviocc"
-    - label: "Mastodon"
-      icon: "fab fa-fw fa-mastodon"
-      url: "https://mastodon.social/@otaviocc"
-
-# Reading Files
+# Exclude from processing
 exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - node_modules/
+  - node_modules
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-# Conversion
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
-
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# Outputting
-permalink: /:year/:month/:day/:slug
-paginate: 10
-paginate_path: /page:num/
-
-# Plugins (previously gems:)
-plugins:
-  - jekyll-include-cache
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-
-# HTML Compression
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
-
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      classes: wide
-      author_profile: true
-      read_time: false
-      comments: false
-      share: false
-      related: false
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      classes: wide
-      header:
-        image: /assets/banners/san-francisco-banner.png

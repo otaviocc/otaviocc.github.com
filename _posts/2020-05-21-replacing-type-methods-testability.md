@@ -1,5 +1,4 @@
 ---
-layout: single
 title:  How to replace type methods in Swift to improve testability
 date:   2020-05-21 12:00:00 -0100
 category: Programming
@@ -13,7 +12,10 @@ Let's suppose there's a class called `APIWrapper`, which implements a type metho
 
 ```swift
 public class APIWrapper {
-    public static func search(query: String, completion: @escaping (Result<[String], Error>) -> Void)
+    public static func search(
+        query: String,
+        completion: @escaping (Result<[String], Error>) -> Void
+    )
 }
 ```
 
@@ -45,12 +47,16 @@ final class SearchResultsTableViewDataSource: NSObject, UITableViewDataSource {
     private let tableView: UITableView
     private var results: [String] = []
 
-    init(tableView: UITableView) {
+    init(
+        tableView: UITableView
+    ) {
         self.tableView = tableView
     }
 
     func fetchSearchResuls(query: String) {
-        APIWrapper.search(query: query) { [weak self] result in
+        APIWrapper.search(
+            query: query
+        ) { [weak self] result in
             switch result {
             case .success(let results): self?.results = results
             case .failure: self?.results = []
@@ -61,6 +67,7 @@ final class SearchResultsTableViewDataSource: NSObject, UITableViewDataSource {
 
     // ... UITableViewDataSource methods ...
 }
+
 ```
 
 If `APIWrapper` had an instance method instead of a type method, two easy and obvious solutions would emerge: *protocols* and *subclasses*. Using either/or it would be possible to replace the wrapper with a [test double](https://martinfowler.com/bliki/TestDouble.html) that captures the query parameter and completion block for verifying expectations.
@@ -80,7 +87,10 @@ final class SearchResultsTableViewDataSource: NSObject, UITableViewDataSource  {
     private var results: [String] = []
     private var searcher: Searcher
 
-    init(tableView: UITableView, searcher: @escaping Searcher = APIWrapper.search(query:completion:)) {
+    init(
+        tableView: UITableView,
+        searcher: @escaping Searcher = APIWrapper.search(query:completion:)
+    ) {
         self.tableView = tableView
         self.searcher = searcher
     }
@@ -114,7 +124,10 @@ final class SearchResultsTableViewDataSourceTests: XCTestCase {
         super.setUp()
 
         tableView = UITableView()
-        dataSource = SearchResultsTableViewDataSource(tableView: tableView) { query, completion in
+
+        dataSource = SearchResultsTableViewDataSource(
+            tableView: tableView
+        ) { query, completion in
             self.lastSearchQuery = query
             self.lastSearchCompletion = completion
         }
@@ -124,8 +137,11 @@ final class SearchResultsTableViewDataSourceTests: XCTestCase {
         // When the method is called
         dataSource?.fetchSearchResuls(query: "Mocked Search Query")
 
-        XCTAssertEqual(lastSearchQuery, "Mocked Search Query",
-                       "It calls the API wrapper with the correct search query")
+        XCTAssertEqual(
+            lastSearchQuery,
+            "Mocked Search Query",
+            "It calls the API wrapper with the correct search query"
+        )
     }
 
     func testFetchSearchResultsWithoutResults() {
@@ -135,8 +151,11 @@ final class SearchResultsTableViewDataSourceTests: XCTestCase {
         // And the API wrapper completion block is called with an empty array
         lastSearchCompletion?(.success([]))
 
-        XCTAssertEqual(dataSource?.tableView(tableView, numberOfRowsInSection: 0), 0,
-                       "It empties the table view")
+        XCTAssertEqual(
+            dataSource?.tableView(tableView, numberOfRowsInSection: 0),
+            0,
+            "It empties the table view"
+        )
     }
 
     func testFetchSearchResultsWithResults() {
@@ -146,14 +165,29 @@ final class SearchResultsTableViewDataSourceTests: XCTestCase {
         // And the API wrapper completion block is called with results
         lastSearchCompletion?(.success(["result 1", "result 2"]))
 
-        XCTAssertEqual(dataSource?.tableView(tableView, numberOfRowsInSection: 0), 2,
-                       "It adds the correct number of results to the table view")
+        XCTAssertEqual(
+            dataSource?.tableView(tableView, numberOfRowsInSection: 0),
+            2,
+            "It adds the correct number of results to the table view"
+        )
 
-        XCTAssertEqual(dataSource?.tableView(tableView, cellForRowAt: IndexPath(row: 0, section: 0)).textLabel?.text, "result 1",
-                       "It configures the first cell")
+        XCTAssertEqual(
+            dataSource?.tableView(
+                tableView,
+                cellForRowAt: IndexPath(row: 0, section: 0)
+            ).textLabel?.text,
+            "result 1",
+            "It configures the first cell"
+        )
 
-        XCTAssertEqual(dataSource?.tableView(tableView, cellForRowAt: IndexPath(row: 1, section: 0)).textLabel?.text, "result 2",
-                       "It configures the second cell")
+        XCTAssertEqual(
+            dataSource?.tableView(
+                tableView,
+                cellForRowAt: IndexPath(row: 1, section: 0)
+            ).textLabel?.text,
+            "result 2",
+            "It configures the second cell"
+        )
     }
 
     func testFetchSearchResultsWithError() {
@@ -164,8 +198,11 @@ final class SearchResultsTableViewDataSourceTests: XCTestCase {
         enum MockError: Error { case someGenericError }
         lastSearchCompletion?(.failure(MockError.someGenericError))
 
-        XCTAssertEqual(dataSource?.tableView(tableView, numberOfRowsInSection: 0), 0,
-                       "It empties the table view")
+        XCTAssertEqual(
+            dataSource?.tableView(tableView, numberOfRowsInSection: 0),
+            0,
+            "It empties the table view"
+        )
     }
 }
 ```

@@ -1,5 +1,4 @@
 ---
-layout: single
 title:  Curried Function in Objective-C
 date:   2016-04-04 12:00:00 -0100
 category: Programming
