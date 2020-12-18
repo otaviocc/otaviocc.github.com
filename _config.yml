@@ -1,18 +1,19 @@
 title: Random Notes
 description: "This my space for Random Notes on Swift, Objective-C, TDD, Cats, LEGO and Coffee…"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://otaviocc.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: "https://otaviocc.github.io"
 
-twitter_username: otaviocc
-github_username:  otaviocc
-mastodon:
- - username: otaviocc
-   instance: mastodon.social
+minima:
+  skin: oc
+  social_links:
+    twitter: otaviocc
+    github:  otaviocc
+    mastodon:
+     - username: otaviocc
+       instance: mastodon.social
 
 # Build settings
 remote_theme: jekyll/minima
-minima:
-  skin: dark
 
 markdown: kramdown
 plugins:
