@@ -33,7 +33,10 @@ So I decided to reimplement it in Swift:
 
 ```swift
 extension Sequence {
-    func distinctBy<T: Hashable>(_ keyPath: KeyPath<Element, T>) -> [Element] {
+
+func distinctBy<T: Hashable>(
+        _ keyPath: KeyPath<Element, T>
+    ) -> [Element] {
         var set: Set<T> = []
         var list: [Element] = []
 
