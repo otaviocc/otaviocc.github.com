@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/otaviocoder
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://otaviocc.github.io
+  * I am otaviocoder (https://keybase.io/otaviocoder) on keybase.
+  * I have a public key with fingerprint FA47 E803 F801 E0FC C57B  CE18 565A 8352 99A7 BC62
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010128c38384d779ab78c95e386e9c3157592183ce07d65f13e7d99ecd1715591b0c0a",
+      "fingerprint": "fa47e803f801e0fcc57bce18565a835299a7bc62",
+      "host": "keybase.io",
+      "key_id": "565a835299a7bc62",
+      "kid": "010128c38384d779ab78c95e386e9c3157592183ce07d65f13e7d99ecd1715591b0c0a",
+      "uid": "6dd91ceb939043e266b85d8deb044219",
+      "username": "otaviocoder"
+    },
+    "service": {
+      "hostname": "otaviocc.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1613226192,
+  "expire_in": 157680000,
+  "prev": "0b48825f6410af51962b74fc848849941accffeda2783f3ac4d11646543e9fc0",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUm1sFEUYvqNthCKB0EYLsQldxS/OZmc/Z1aNlYgYKhaaam0TvO7Ozva2PW+P
+3e1JORtJFYEEbAsh7an9MFbQGKm2JkVLPT9yGPEQatQqYkQbLI0tEmsCnC04W+WH
+iT+dP5N53ud55nnfvK2Lsnzz/Y9VP1ueOHhE838+oflqbjtzOs5olt7IKHGmnsxd
+JKwTxw3WmzqjMCxgAQcxD3ko6LKMVE2GGImEhxJBmAeiLCIOQB4TVtYl0QA8kXWE
+CNaBDEQRAY3FrMoEGMOM1BI7apsRl9oaqiATyPIGZAFhDYxFWcMEQFESVciLHEIq
+BSSOCkOW4yloOE11SLFpUYw+gnPx/oP/P+dumLOTdB0BTDTEI1bgCSdJGhR1qBON
+FQQOII/oEDuiPkko23LVmGlhSyc20xRgaCFmYuLN1mvm3yRcXGu6oQbt78aituVS
+YZjWQ64bdRRP7zZGPcFTRAv+YxXUzIhOB0oVMWI7phVhFECZ2DU9byABnuMkgLgA
+Q7ZETZsETY8hyhJk6fH+ITFGpWPSBAg50ZAEwKqGCJDEabJgYEhhASEBqBgbBtFV
+Toa8watY0AGQBEmkQ0AGZhmvu80Ri1EgzanW0piOWRtR3QabME25u/wD2T7/fF/h
+DUXZmbXnsi75z8yk4l8UXFvCnHneBvpyFyy5hoz9svDqM+GX3mo5cnxRT9F6453L
+v820LbXb7nnjiY/3ntwnf9ee6HxhZUdFemL0umM5Wml3y8X3Mp3v3rG4M//LlVdu
+LXn9/J77SzjSq3/aP1KmHLi+eyJ1JVT66BCQXg0PZlftuSv10apw9ChTsrMiWfDz
+rqS+2D9yvGx3/zc/VB5eE8JTR5UtD7fmnXhxSpkmN03dHF5Wtmx2vPGB0pyDzW9z
+w+zjebvNtY/sH9/Gzq6YOXZv3LxUOPZre3XhyHDThas/tfSl5ZaCrs3hDYHXKr/u
+6ln18uqB8Z7bv9q+Y80n3QPP4/Xbn75x+nKmaHTyle+b4IWFW+NJu/lUn3Jyf3JT
+5r51y4PpFbk17dr50OC+DXxF4IRRHkxN8mODW5sv7twx+NyfTv6m3gfN/P4FZ0dX
+f2jXHdI6+Ni2jb3lqaHKD/Kqesrc3+3DG7vw+4ma5PS5rLO56yo6TPvOwLzW0anZ
+guHixENv/ngo03eKW3pLd+rbJU56ok5J/HH30GdVp+vzJ9PNCmirqz6wPPUX
+=YvHZ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/otaviocoder
+
+==================================================================
