@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-$brand-color:           #FFCB6B !default;
+$brand-color:           #7AC8B6 !default;
 $brand-color-light:     lighten($brand-color, 0%) !default;
 $brand-color-dark:      darken($brand-color, 55%) !default;
 
@@ -10,7 +10,7 @@ $text-color:            #bbbbbb !default;
 $background-color:      #181818 !default;
 $code-background-color: #212121 !default;
 
-$link-base-color:       #FFCB6B !default;
+$link-base-color:       #7AC8B6 !default;
 $link-visited-color:    $link-base-color !default;
 $link-hover-color:      $text-color !default;
 
@@ -31,64 +31,83 @@ $table-border-color:    $border-color-01 !default;
 // https://github.com/material-theme/vsc-material-theme/blob/master/scripts/generator/color-set.ts
 // ----------------------------------------------------------------------------
 
+.highlight { background: #211f1e; color: #fff }
+
 .highlight {
-  .c     { color: #545454; font-style: italic } // Comment
-  .err   { color: #f07178; background-color: #e3d2d2 } // Error
-  .k     { color: #89DDFF; font-weight: bold } // Keyword
-  .o     { font-weight: bold } // Operator
-  .cm    { color: #545454; font-style: italic } // Comment.Multiline
-  .cp    { color: #545454; font-weight: bold } // Comment.Preproc
-  .c1    { color: #545454; font-style: italic } // Comment.Single
-  .cs    { color: #545454; font-weight: bold; font-style: italic } // Comment.Special
-  .gd    { color: #000; background-color: #fdd } // Generic.Deleted
-  .gd .x { color: #000; background-color: #faa } // Generic.Deleted.Specific
-  .ge    { font-style: italic } // Generic.Emph
-  .gr    { color: #f07178 } // Generic.Error
-  .gh    { color: #999 } // Generic.Heading
-  .gi    { color: #000; background-color: #dfd } // Generic.Inserted
-  .gi .x { color: #000; background-color: #afa } // Generic.Inserted.Specific
-  .go    { color: #888 } // Generic.Output
-  .gp    { color: #555 } // Generic.Prompt
-  .gs    { font-weight: bold } // Generic.Strong
-  .gu    { color: #aaa } // Generic.Subheading
-  .gt    { color: #f07178 } // Generic.Traceback
-  .kc    { font-weight: bold } // Keyword.Constant
-  .kd    { font-weight: bold } // Keyword.Declaration
-  .kp    { font-weight: bold } // Keyword.Pseudo
-  .kr    { font-weight: bold } // Keyword.Reserved
-  .kt    { color: #FFCB6B; font-weight: bold } // Keyword.Type
-  .m     { color: #F78C6C } // Literal.Number
-  .s     { color: #C3E88D } // Literal.String
-  .na    { color: #008080 } // Name.Attribute
-  .nb    { color: #EEFFFF } // Name.Builtin
-  .nc    { color: #FFCB6B; font-weight: bold } // Name.Class
-  .no    { color: #008080 } // Name.Constant
-  .ni    { color: #800080 } // Name.Entity
-  .ne    { color: #900; font-weight: bold } // Name.Exception
-  .nf    { color: #82AAFF; font-weight: bold } // Name.Function
-  .nn    { color: #555 } // Name.Namespace
-  .nt    { color: #FFCB6B } // Name.Tag
-  .nv    { color: #EEFFFF } // Name.Variable
-  .ow    { font-weight: bold } // Operator.Word
-  .w     { color: #EEFFFF } // Text.Whitespace
-  .mf    { color: #F78C6C } // Literal.Number.Float
-  .mh    { color: #F78C6C } // Literal.Number.Hex
-  .mi    { color: #F78C6C } // Literal.Number.Integer
-  .mo    { color: #F78C6C } // Literal.Number.Oct
-  .sb    { color: #C3E88D } // Literal.String.Backtick
-  .sc    { color: #C3E88D } // Literal.String.Char
-  .sd    { color: #C3E88D } // Literal.String.Doc
-  .s2    { color: #C3E88D } // Literal.String.Double
-  .se    { color: #EEFFFF } // Literal.String.Escape
-  .sh    { color: #C3E88D } // Literal.String.Heredoc
-  .si    { color: #C3E88D } // Literal.String.Interpol
-  .sx    { color: #C3E88D } // Literal.String.Other
-  .sr    { color: #C3E88D } // Literal.String.Regex
-  .s1    { color: #C3E88D } // Literal.String.Single
-  .ss    { color: #C3E88D } // Literal.String.Symbol
-  .bp    { color: #999 } // Name.Builtin.Pseudo
-  .vc    { color: #FFCB6B } // Name.Variable.Class
-  .vg    { color: #EEFFFF } // Name.Variable.Global
-  .vi    { color: #EEFFFF } // Name.Variable.Instance
-  .il    { color: #F78C6C } // Literal.Number.Integer.Long
+    .hll { background-color: #515B70 }
+    .c { color: #6C7986 }
+    .c1 { color: #6C7986 }
+    .cs { color: #6C7986 }
+    .ch { color: #6C7986 }
+    .cm { color: #6C7986 }
+    .cp { color: #ff79c6 }
+    .cpf { color: #6C7986 }
+    .err { color: #f8f8f2 }
+    .k { color: #FC5FA3; font-weight: bold }
+    .kc { color: #FC5FA3; font-weight: bold }
+    .kd { color: #FC5FA3; font-weight: bold }
+    .kn { color: #FC5FA3; font-weight: bold }
+    .kp { color: #FC5FA3; font-weight: bold }
+    .kr { color: #FC5FA3; font-weight: bold }
+    .o { color: #fff }
+    .n { color: #67B7A4 }
+    .nv { color: #41A1C0 }
+    .p { color: #fff }
+    .nf { color: #A167E6 }
+    .s { color: #FC6A5D }
+    .mb { color: #9686F5 }
+    .mf { color: #9686F5 }
+    .mh { color: #9686F5 }
+    .mi { color: #9686F5 }
+    .mo { color: #9686F5 }
+    .kt { color: #7AC8B6 }
+    .nc { color: #91D462 }
+    .g { color: #f8f8f2 }
+    .l { color: #f8f8f2 }
+    .x { color: #f8f8f2 }
+    .gd { color: #8b080b }
+    .ge { color: #f8f8f2; text-decoration: underline }
+    .gr { color: #f8f8f2 }
+    .gh { color: #f8f8f2; font-weight: bold }
+    .gi { color: #f8f8f2; font-weight: bold }
+    .go { color: #44475a }
+    .gp { color: #f8f8f2 }
+    .gs { color: #f8f8f2 }
+    .gu { color: #f8f8f2; font-weight: bold }
+    .gt { color: #f8f8f2 }
+    .ld { color: #f8f8f2 }
+    .m { color: #bd93f9 }
+    .na { color: #50fa7b }
+    .nb { color: #ff79c6; font-style: medium }
+    .no { color: #f8f8f2 }
+    .nd { color: #f8f8f2 }
+    .ni { color: #f8f8f2 }
+    .ne { color: #f8f8f2 }
+    .nl { color: #ff79c6; font-style: medium }
+    .nn { color: #f8f8f2 }
+    .nx { color: #f8f8f2 }
+    .py { color: #f8f8f2 }
+    .nt { color: #ff79c6 }
+    .ow { color: #ff79c6 }
+    .w { color: #f8f8f2 }
+    .sa { color: #f1fa8c }
+    .sb { color: #f1fa8c }
+    .sc { color: #f1fa8c }
+    .dl { color: #f1fa8c }
+    .sd { color: #f1fa8c }
+    .s2 { color: #f1fa8c }
+    .se { color: #f1fa8c }
+    .sh { color: #f1fa8c }
+    .si { color: #f1fa8c }
+    .sx { color: #f1fa8c }
+    .sr { color: #f1fa8c }
+    .s1 { color: #f1fa8c }
+    .ss { color: #f1fa8c }
+    .bp { color: #f8f8f2; font-style: italic }
+    .fm { color: #50fa7b }
+    .vc { color: #ff79c6; font-style: medium }
+    .vg { color: #ff79c6; font-style: medium }
+    .vi { color: #ff79c6; font-style: medium }
+    .vm { color: #ff79c6; font-style: medium }
+    .il { color: #bd93f9 }
 }
