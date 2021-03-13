@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: otaviocc.github.io
-Token: 0192cdb108674271d23f88ca2723657000fbc679b02c30efee78df67b4b2895e
