@@ -20,6 +20,8 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
+include: [".well-known"]
+
 # Exclude from processing
 exclude:
   - Gemfile
