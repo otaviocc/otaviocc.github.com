@@ -1,26 +1,26 @@
 title: Random Notes
 description: "This my space for Random Notes on Swift, Objective-C, TDD, Cats, LEGO and Coffee…"
 baseurl: ""
-url: "https://otaviocc.github.io"
+url: "https://otavio.cc"
 
-minima:
-  skin: oc
+custom:
   social_links:
     twitter: otaviocc
     github:  otaviocc
     mastodon:
      - username: otaviocc
        instance: mastodon.social
+    keybase: otaviocordeiro
 
 # Build settings
-remote_theme: jekyll/minima
+remote_theme: pages-themes/cayman
 
 markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
-include: [".well-known"]
+include: [".well-known", "keybase.txt"]
 
 # Exclude from processing
 exclude:
