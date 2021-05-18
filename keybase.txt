@@ -4,7 +4,7 @@ https://keybase.io/otaviocordeiro
 
 I hereby claim:
 
-  * I am an admin of https://otaviocc.github.io
+  * I am an admin of https://otavio.cc
   * I am otaviocordeiro (https://keybase.io/otaviocordeiro) on keybase.
   * I have a public key with fingerprint FA47 E803 F801 E0FC C57B  CE18 565A 8352 99A7 BC62
 
@@ -21,17 +21,27 @@ To do so, I am signing this object:
       "uid": "130916f1e8d06706dc6c9e69e092fe19",
       "username": "otaviocordeiro"
     },
+    "merkle_root": {
+      "ctime": 1621359411,
+      "hash_meta": "19e6843529cbd22d14c3f81612f9be6ff353581101e2a054ac19ea5ccd090d8f",
+      "seqno": 19980141
+    },
+    "revoke": {
+      "sig_ids": [
+        "7d0c7629fcdad2923af4a2bd7256ec64836145ff7b68ac1df9cce5bfd30b54f00f"
+      ]
+    },
     "service": {
-      "hostname": "otaviocc.github.io",
+      "hostname": "otavio.cc",
       "protocol": "https:"
     },
     "type": "web_service_binding",
     "version": 1
   },
-  "ctime": 1613468828,
+  "ctime": 1621359446,
   "expire_in": 157680000,
-  "prev": "8902d9165b2234cb7dc774907f535518f9c7c9637a7150f4e6a32295469d40fd",
-  "seqno": 3,
+  "prev": "f832a29bfdf55a12a6573a272658db3fadaa06da7dfe62418e0e43f180b9294b",
+  "seqno": 19,
   "tag": "signature"
 }
 
@@ -39,27 +49,29 @@ which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
 
-owGtUn9MVVUcf5cfSjCUKWkjHXj9MUp83nN/nvOmSKKigrpVa0Wsx73nnvveFXj3
-cd99jxg9w9VLXC2JUss/1K1U3ApWG2WbmSxtNRATjaRagQVBkbq5N8Dh1rmUf7T1
-Z+efs/P9fj6f8/l8923NTvVkME9VvvT4O6fOakzPuOapXv3W+02sZumNrK+JrSGz
-F6nVScTx15g662M5wAEeYgEKUNQVBamaAjGSiABlgrAAJEVCPIACJpyiy5IBBKLo
-CBGsAwVIEgIahzmVLWINMxQgdtg2Qw6VNVRRIZATDMgBwhkYS4qGCYCSLKlQkHiE
-VFqQeUoMWhGXQc1paoR4TYvW6MM/a+8/8P+z7+isHBA4BGQDEKhzssLJOpYxIjIi
-HOINApALjBA7pNYRirYcNWZa2LJ1YtoWGy9iaS9mYuKO183zbxz2BkwnGNX+zha2
-LYdya2k/6DjhiM/lO41hl9BANP8/Un7NDOl0ppQRI3bEtEKsD1AkdkxXG8hAEGUI
-eVjEkufDpk38pouQFBly9Lj/6CRGNSHieJ2GkzSeF0SsKTpWFBFxiiEJkgSggbCC
-kSwoKh0MZ4hEVgWeR5IoI13kDJ1109WHLNYnUJ9qgEpGzEBIdaI2YeOZ+5mP0jxM
-hmfpomVpd8vGUqeYoZmLTX0P3d/D9BR3CT2ZD+Tcr1TGspK5ucWb81eOfh2cPObE
-F0tLFnYH+tuvnK27OH+xr29cD2xp3Pzc8Ikd8YbMfa8u7GVWnsyLwuSNvTnM+tKO
-OfHpvEd7nHiieFvXSMGzK76aM69xW0vBy4XBF67OK9WrQ9fqV6fd6Ri+uz3xSO+N
-V+aP//hT5caZz0Z3l+8pGzA05U7yzZ01awaNuh8O5b37xhXhySn50w29nc3oVmIX
-t65yU3DVspvft86s6a/u++LQKu5wdttBdCnbwszttgMpuZ9sL3lwYNHWoaNn9j/N
-vF17daJ9+ubOZ+pLk9/4hiou52883/LxH+nDxcenXrvctQWMJDYVnOtO+tqnr1WE
-T5/YWlTx3bcT3oqq6Ic/F16fHg3uu3epqgwcP7Dg9bQ/l3Su3dUME1/+etD/y7lB
-Rlg7NVbiHby+NMv7+4pbdqq++4OsofNtPZ2PvSillNvLT7eemRg4bLZseG9vmdi/
-vuS35tsPl48MXvBNVi0v/Hxd4ZG5T2TsmenKORru7B5uuHCvq2M8Xcw/WTtZ1z/2
-Fw==
-=ONoF
+owGtU31MVlUc5hUIME1iRcT6oFtTLIb33HvPvfe8tVfsQ0rHbKSWmns595xz4fLx
+3td7X14wYJGoCydK2cdi0pdzQm2GytaYCPlRbTGwdFMo1oJ0Qq2oiOLDsHNZbtX6
+s/PP2fnt+T3P83vOOY0LY2MSfes31uW/cajT8PWMGjEFB2Y2VwmGTbcK/iqhhM1t
+rJQyNxIssajgF0QgAkknsi7rCtU0hA1NJwgyWVcZIjKAGkQS0GXCRI2q0AQy0yhC
+jFCgAQgRMEQiYiFLMK1QIXPCjhWKcFoTKxrTRdnURcBEkxCoGYQBHaoQ6zKUEMK8
+oEq8sch2vQ5uzsAuy7ZsXuOH4Jy9/8D/z77L5+iALCKgmoDpVFQ1UaVEJYipiIlI
+MhlAHtBlTgiXMY62Izhq2cR2KLMcW6jJEsqYU1LKgo5tR7yIScTygECVgAyRAgAf
+E7tFwTIWwZ4ap9YVbyxiUEmiQCE8KaACyUQGU01ThjLUAR+RSViECia8A0NCqIhE
+qpvcjcu2hGyugBBPWAHcgsOidgnz1F2rkKfnCh9V+TcJGhWJpkrIJBRTCUkyNhUs
+GVSToMqIquiyChRompqh6lyHmogQBg2TyqIBFVMUTWFzjafnRC0yR+9d2D+CyCaE
+Owo7doRnUsrLRZFI2PV7uUS2hj1cBTOCfzEEDStE+VvhHVHmuJYd4lNw5L8iU9Qs
+gVWGLYcFLQ8BNVUX+fJ0WNR7YbosYQlxoyaEGEhYhZqMJU1SoU4N2cQUY36PWKMm
+UyUF6ExkimwCXTSQhBTj7xlyn7iQc/LgQjhS7jChZn6971hcjC8x5s7Ue+Kmc0di
+J33fXP24qi/t+v+Kn+d9rpj5ScnXK0+U3Dj7wIoFM+dOHrgW27+mq2718dmB2u83
+JPyU5uLsc80Dz9+3PyVvb3u+8cOOFxMP/Zw+vPPBJwdyQy8s6DrW8GWt2JXVvTL0
+2IWGqWjbjtXpHZlpS/c2tRVvbJw+lbeuryix59Vw0vJPfw/kvXP4kjJcdyQhe+DK
+my89nVLRLgzXfR1//Nng+TP7Art+vCswkvnQme4PfoMZqYNH19yW1du+K2Phnqde
+35aTPHt2e6BnUVfHI7evujs1pyBv/T4l9Y9ln3xeX3nHxJR/wh0eevjk+zMH888W
+X3RbTi85/N1g8xLSuryx74tnOse2Xz2Nzkdz110IGOP9/ud2V59495aMyVXFSy+3
+9R85GBs7Np1dXzzctKm6IPmGz+Kv+R/dWd7dUJhW+9api/lwas9MU8VIcpp8aTQn
+kLTt20VVJT0JU6+NX+5VXmnuXZb79r1jTVeU/VPBzt0tv+rjK28anGhNyrx/siM7
+/Zf3Hl9RNDRasCHuw17f2taQ4oarh/K33NzSUPHVrSf6YG/K2qOzi+tY5eJ5L/8J
+=Hdm8
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
