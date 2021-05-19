@@ -8,14 +8,14 @@ category: Programming
 
 But with MVVM knocking on the door with SwiftUI, it would be nice to switch between the View and the ViewModel. Luckily this is actually possible by adding additional counterparts to the Xcode configuration (Xcode needs to be restarted after setting the new counterparts):
 
-```cli
+```bash
 $ defaults write com.apple.dt.Xcode IDEAdditionalCounterpartSuffixes \
            -array-add "ViewModel" "View"
 ```
 
 To revert the step, delete the additional counterparts. The default counterparts from Xcode won't be removed.
 
-```cli
+```bash
 $ defaults delete com.apple.dt.Xcode IDEAdditionalCounterpartSuffixes
 ```
 
