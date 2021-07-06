@@ -21,7 +21,7 @@
           {{ page.date | date: "%b %-d, %Y" }}
         </time>
       </h3>
-      {% else %}
+      {% elsif page.title == nil %}
       <p>{{ page.description | default: site.description }}</p>
       {% endif %}
     </div>
