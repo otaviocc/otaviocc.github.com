@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: otavio.cc
+Token: 5335a232cac6b36eb5e76db196de5e57e9b8fae3d6c7a3b84be966483a0dc06e

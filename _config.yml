@@ -1,0 +1,33 @@
+title: Random Notes
+description: "This my space for Random Notes on Swift, Objective-C, TDD, Cats, LEGO and Coffee…"
+baseurl: ""
+url: "https://otavio.cc"
+
+custom:
+  social_links:
+    twitter: otaviocc
+    github:  otaviocc
+    mastodon:
+     - username: otaviocc
+       instance: mastodon.social
+    keybase: otaviocordeiro
+    linkedin: otaviocc
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+
+permalink: /:title:output_ext
+
+include: [".well-known", "keybase.txt"]
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

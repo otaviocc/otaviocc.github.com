@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+  <link rel="stylesheet" href="{{- 'assets/css/style.css' | relative_url -}}" />
+  <link rel="shortcut icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" type="image/png" href="favicon.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@otaviocc" />
+  <meta name="twitter:site" content="@otaviocc" />
+  <meta name="twitter:image" content="{{ site.url }}/assets/images/me.jpg">
+  <meta property="og:image" content="{{ site.url }}/assets/images/me.jpg" />
+</head>
+<body>
+  <main>
+    {% include menu.html %}
+
+    <div class="description">
+      <h1>{{ page.title | default: site.title }}</h1>
+      {% if page.date %}
+      <h2>
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {{ page.date | date: "%b %-d, %Y" }}
+        </time>
+      </h2>
+      {% else %}
+      <p>{{ page.description | default: site.description }}</p>
+      {% endif %}
+    </div>
+
+    {{ content }}
+  </main>
+</body>
+</html>

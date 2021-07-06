@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/otaviocordeiro
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://otavio.cc
+  * I am otaviocordeiro (https://keybase.io/otaviocordeiro) on keybase.
+  * I have a public key with fingerprint FA47 E803 F801 E0FC C57B  CE18 565A 8352 99A7 BC62
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010128c38384d779ab78c95e386e9c3157592183ce07d65f13e7d99ecd1715591b0c0a",
+      "fingerprint": "fa47e803f801e0fcc57bce18565a835299a7bc62",
+      "host": "keybase.io",
+      "key_id": "565a835299a7bc62",
+      "kid": "010128c38384d779ab78c95e386e9c3157592183ce07d65f13e7d99ecd1715591b0c0a",
+      "uid": "130916f1e8d06706dc6c9e69e092fe19",
+      "username": "otaviocordeiro"
+    },
+    "merkle_root": {
+      "ctime": 1621359411,
+      "hash_meta": "19e6843529cbd22d14c3f81612f9be6ff353581101e2a054ac19ea5ccd090d8f",
+      "seqno": 19980141
+    },
+    "revoke": {
+      "sig_ids": [
+        "7d0c7629fcdad2923af4a2bd7256ec64836145ff7b68ac1df9cce5bfd30b54f00f"
+      ]
+    },
+    "service": {
+      "hostname": "otavio.cc",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1621359446,
+  "expire_in": 157680000,
+  "prev": "f832a29bfdf55a12a6573a272658db3fadaa06da7dfe62418e0e43f180b9294b",
+  "seqno": 19,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtU31MVlUc5hUIME1iRcT6oFtTLIb33HvPvfe8tVfsQ0rHbKSWmns595xz4fLx
+3td7X14wYJGoCydK2cdi0pdzQm2GytaYCPlRbTGwdFMo1oJ0Qq2oiOLDsHNZbtX6
+s/PP2fnt+T3P83vOOY0LY2MSfes31uW/cajT8PWMGjEFB2Y2VwmGTbcK/iqhhM1t
+rJQyNxIssajgF0QgAkknsi7rCtU0hA1NJwgyWVcZIjKAGkQS0GXCRI2q0AQy0yhC
+jFCgAQgRMEQiYiFLMK1QIXPCjhWKcFoTKxrTRdnURcBEkxCoGYQBHaoQ6zKUEMK8
+oEq8sch2vQ5uzsAuy7ZsXuOH4Jy9/8D/z77L5+iALCKgmoDpVFQ1UaVEJYipiIlI
+MhlAHtBlTgiXMY62Izhq2cR2KLMcW6jJEsqYU1LKgo5tR7yIScTygECVgAyRAgAf
+E7tFwTIWwZ4ap9YVbyxiUEmiQCE8KaACyUQGU01ThjLUAR+RSViECia8A0NCqIhE
+qpvcjcu2hGyugBBPWAHcgsOidgnz1F2rkKfnCh9V+TcJGhWJpkrIJBRTCUkyNhUs
+GVSToMqIquiyChRompqh6lyHmogQBg2TyqIBFVMUTWFzjafnRC0yR+9d2D+CyCaE
+Owo7doRnUsrLRZFI2PV7uUS2hj1cBTOCfzEEDStE+VvhHVHmuJYd4lNw5L8iU9Qs
+gVWGLYcFLQ8BNVUX+fJ0WNR7YbosYQlxoyaEGEhYhZqMJU1SoU4N2cQUY36PWKMm
+UyUF6ExkimwCXTSQhBTj7xlyn7iQc/LgQjhS7jChZn6971hcjC8x5s7Ue+Kmc0di
+J33fXP24qi/t+v+Kn+d9rpj5ScnXK0+U3Dj7wIoFM+dOHrgW27+mq2718dmB2u83
+JPyU5uLsc80Dz9+3PyVvb3u+8cOOFxMP/Zw+vPPBJwdyQy8s6DrW8GWt2JXVvTL0
+2IWGqWjbjtXpHZlpS/c2tRVvbJw+lbeuryix59Vw0vJPfw/kvXP4kjJcdyQhe+DK
+my89nVLRLgzXfR1//Nng+TP7Art+vCswkvnQme4PfoMZqYNH19yW1du+K2Phnqde
+35aTPHt2e6BnUVfHI7evujs1pyBv/T4l9Y9ln3xeX3nHxJR/wh0eevjk+zMH888W
+X3RbTi85/N1g8xLSuryx74tnOse2Xz2Nzkdz110IGOP9/ud2V59495aMyVXFSy+3
+9R85GBs7Np1dXzzctKm6IPmGz+Kv+R/dWd7dUJhW+9api/lwas9MU8VIcpp8aTQn
+kLTt20VVJT0JU6+NX+5VXmnuXZb79r1jTVeU/VPBzt0tv+rjK28anGhNyrx/siM7
+/Zf3Hl9RNDRasCHuw17f2taQ4oarh/K33NzSUPHVrSf6YG/K2qOzi+tY5eJ5L/8J
+=Hdm8
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/otaviocordeiro
+
+==================================================================

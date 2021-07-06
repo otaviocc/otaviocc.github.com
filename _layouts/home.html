@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div>
+  {{ content }}
+  <ul class="post-list">
+    {% for post in site.posts %}
+    <li>
+      <a class="post-link" href="{{ post.url | absolute_url }}" title="{{ post.title }}">{{ post.title | escape }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
