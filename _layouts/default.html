@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 <head>
   <link rel="stylesheet" href="{{- 'assets/css/style.css' | relative_url -}}" />
   <link rel="shortcut icon" type="image/png" href="favicon.png">
@@ -9,6 +9,7 @@
   <meta name="twitter:site" content="@otaviocc" />
   <meta name="twitter:image" content="{{ site.url }}/assets/images/me.jpg">
   <meta property="og:image" content="{{ site.url }}/assets/images/me.jpg" />
+  <title>{{ page.title | default: site.title }}</title>
 </head>
 <body>
   <main>
