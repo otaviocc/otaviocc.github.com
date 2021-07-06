@@ -1,8 +1,6 @@
 <div class="nav">
   <ul>
-    {% if page.title %}
     <li><a href="/">Home</a></li>
-    {% endif %}
 
     {% if site.custom.social_links.github %}
     <li><a href="https://github.com/{{ site.custom.social_links.github }}">GitHub</a></li>    
@@ -30,8 +28,6 @@
     <li><a href="/feed.xml">Feed</a></li>
     {% endif %}
 
-    {% unless page.title == "/now" %}    
     <li><a href="/now">/now</a></li>
-    {% endunless %}
   </ul>
 </div>
