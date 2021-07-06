@@ -1,12 +1,14 @@
 /* Main */
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Proxima Nova', 'Helvetica Neue' , Helvetica, Arial, sans-serif;
     font-size: 1em;
+    line-height: 1.4em;
 }
 
 pre, code {
     font-size: 1em;
+    line-height: 1.2em;
 }
 
 a, a:hover, a:visited {
@@ -17,6 +19,10 @@ main {
     margin-left: 2ex;
     max-width: 80ex;
     display: block;
+}
+
+h1, h2, h3 {
+    line-height: 1.2em;
 }
 
 /* Menu */
