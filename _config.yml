@@ -3,16 +3,6 @@ description: "This my space for Random Notes on Swift, Objective-C, TDD, Cats, L
 baseurl: "/"
 url: "https://otavio.cc"
 
-custom:
-  social_links:
-    twitter: otaviocc
-    github:  otaviocc
-    mastodon:
-     - username: otaviocc
-       instance: mastodon.social
-    keybase: otaviocordeiro
-    linkedin: otaviocc
-
 markdown: kramdown
 plugins:
   - jekyll-feed
