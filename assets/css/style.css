@@ -11,12 +11,16 @@ pre, code {
     line-height: 1.2em;
 }
 
+pre {
+    overflow: auto;
+}
+
 a, a:hover, a:visited {
     color: #37f;
 }
 
 main {
-    margin-left: 2ex;
+    margin: 0 2ex 0 2ex;
     max-width: 80ex;
     display: block;
 }
