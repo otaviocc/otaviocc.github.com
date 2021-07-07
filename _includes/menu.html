@@ -2,33 +2,11 @@
   <ul>
     <li><a href="/">Home</a></li>
 
-    {% if site.custom.social_links.github %}
-    <li><a href="https://github.com/{{ site.custom.social_links.github }}">GitHub</a></li>    
-    {% endif %}
-
-    {% if site.custom.social_links.twitter %}
-    <li><a href="https://twitter.com/{{ site.custom.social_links.twitter }}">Twitter</a></li>
-    {% endif %}
-
-    {% for mst in site.custom.social_links.mastodon %}
-    {% if mst.username and mst.instance %}
-    <li><a href="https://{{ mst.instance | cgi_escape | escape}}/@{{mst.username}}">Mastodon</a></li>
-    {% endif %}
-    {% endfor %}
-
-    {% if site.custom.social_links.keybase %}
-    <li><a href="https://keybase.io/{{ site.custom.social_links.keybase }}">Keybase</a></li>
-    {% endif %}
-
-    {% if site.custom.social_links.linkedin %}
-    <li><a href="https://www.linkedin.com/in/{{ site.custom.social_links.linkedin }}">Linkedin</a></li>
-    {% endif %}
-
     {% if site.plugins contains "jekyll-feed" %}
     <li><a href="/feed.xml">Feed</a></li>
     {% endif %}
 
-    <li><a href="/about">/about</a></li>
+    <li><a href="/about">About</a></li>
 
     <li><a href="/now">/now</a></li>
   </ul>
