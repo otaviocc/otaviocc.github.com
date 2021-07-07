@@ -6,7 +6,6 @@ url: "https://otavio.cc"
 markdown: kramdown
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
 
 permalink: /:title:output_ext
 
