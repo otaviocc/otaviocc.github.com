@@ -13,6 +13,7 @@ pre, code {
 
 pre {
     overflow: auto;
+    overflow-y: hidden;
 }
 
 a, a:hover, a:visited {
@@ -20,9 +21,22 @@ a, a:hover, a:visited {
 }
 
 main {
-    margin: 0 2ex 0 2ex;
-    max-width: 80ex;
+    padding: 0 2ex 0 2ex;
     display: block;
+}
+
+@media screen and (max-device-width: 480px){
+    main {
+        width: 100%;
+        font-size: 1.6em;
+        line-height: 1.8em;
+    }
+}
+
+@media screen and (min-device-width: 480px) {
+    main {
+        max-width: 80ex;
+    }
 }
 
 h1, h2, h3 {
@@ -32,23 +46,23 @@ h1, h2, h3 {
 /* Menu */
 
 .nav { 
-  padding: 0ex;
-  top: 0ex;
-  margin: 0ex;
+    padding: 0ex;
+    top: 0ex;
+    margin: 0ex;
 }
 
 .nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .nav ul li {
-  display: inline;
+    display: inline;
 }
 
 .nav li + li::before {
-  content: " | ";
+    content: " | ";
 }
 
 /* Description */
