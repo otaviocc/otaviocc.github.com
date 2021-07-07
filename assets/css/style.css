@@ -21,13 +21,13 @@ a, a:hover, a:visited {
 }
 
 main {
-    margin: 0 2ex 0 2ex;
+    padding: 0 2ex 0 2ex;
     display: block;
 }
 
 @media screen and (max-device-width: 480px) {
     main {
-        width: 100%;
+        max-width: 100%;
         font-size: 1.6em;
         line-height: 1.8em;
     }
