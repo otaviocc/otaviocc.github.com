@@ -11,11 +11,6 @@ pre, code {
     line-height: 1.2em;
 }
 
-pre {
-    overflow: auto;
-    overflow-y: hidden;
-}
-
 a, a:hover, a:visited {
     color: #37f;
 }
@@ -30,6 +25,11 @@ main {
         max-width: 100%;
         font-size: 1.6em;
         line-height: 1.8em;
+    }
+
+    pre {
+        overflow: auto;
+        overflow-y: hidden;
     }
 }
 
