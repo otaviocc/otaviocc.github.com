@@ -7,7 +7,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
-permalink: /:title:output_ext
+permalink: /post/:title:output_ext
 
 include: [".well-known", "keybase.txt"]
 
