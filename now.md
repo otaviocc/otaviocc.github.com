@@ -20,8 +20,12 @@ I'm currently reading (again) [REMOTE: Office Not Required](https://basecamp.com
 
 I'm currently working on a blog post about Unit Tests and Test Doubles.
 
+## 🎧 Listening
+
+I'm currently listening to [99% Invisible](https://99percentinvisible.org), [Twenty Thousand Hertz](https://www.20k.org), and [Freakonomics Radio](https://freakonomics.com/archive/).
+
 ## 🎮 Gaming
 
 I’m currently playing [Octopath Traveler](https://en.wikipedia.org/wiki/Octopath_Traveler), [Mario + Rabbids Kingdom Battle](https://en.wikipedia.org/wiki/Mario_%2B_Rabbids_Kingdom_Battle), and, eventually [Dragon Quest Builders 2](https://en.wikipedia.org/wiki/Dragon_Quest_Builders_2).
 
-Last update: 2021-05-07.
+Last update: 2021-07-09.
