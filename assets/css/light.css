@@ -1,0 +1,7 @@
+/* Light Mode  */
+
+@media (prefers-color-scheme: light) {
+    a, a:hover, a:visited {
+        color: #37f;
+    }
+}

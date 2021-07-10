@@ -1,0 +1,16 @@
+/* Dark Mode  */
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1F242A;
+        color: #adbac7;
+    }
+
+    h1, h3, h3 {
+        color: #ADBAC6;
+    }
+
+    a, a:hover, a:visited {
+        color: #539BF5;
+    }
+}

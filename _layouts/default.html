@@ -2,7 +2,12 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 <head>
   <title>{{ page.title | default: site.title }}</title>
+
   <link rel="stylesheet" href="{{- 'assets/css/style.css' | relative_url -}}" />
+  <link rel="stylesheet" href="{{- 'assets/css/light.css' | relative_url -}}" />
+  <link rel="stylesheet" href="{{- 'assets/css/dark.css' | relative_url -}}" />
+  <link rel="stylesheet" href="{{- 'assets/css/pygment-xcode.css' | relative_url -}}" />
+  <link rel="stylesheet" href="{{- 'assets/css/pygment-nord.css' | relative_url -}}" />
 
   <meta name="description" content="{{ page.description | default: site.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
