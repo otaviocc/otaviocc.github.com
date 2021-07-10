@@ -41,29 +41,27 @@ h1, h2, h3 {
 
 /* Menu */
 
-.nav { 
+nav { 
     padding: 0ex;
     top: 0ex;
     margin: 0ex;
 }
 
-.nav ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.nav ul li {
+nav ul li {
     display: inline;
 }
 
-.nav li + li::before {
+nav li + li::before {
     content: " | ";
 }
 
-/* Description */
-
-.description {
+header {
     padding: 0ex;
     top: 0ex;
     margin-bottom: 2ex;

@@ -24,7 +24,7 @@
   <main>
     {% include menu.html %}
 
-    <div class="description">
+    <header>
       <h1>{{ page.title | default: site.title }}</h1>
       {% if page.date %}
       <h3>
@@ -35,9 +35,11 @@
       {% elsif page.title == nil %}
       <p>{{ page.description | default: site.description }}</p>
       {% endif %}
-    </div>
+    </header>
 
-    {{ content }}
+    <article>
+      {{ content }}
+    </article>
   </main>
 </body>
 </html>
