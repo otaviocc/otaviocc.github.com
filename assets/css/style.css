@@ -23,8 +23,6 @@ main {
 @media screen and (max-device-width: 480px) {
     main {
         max-width: 100%;
-/*        font-size: 1.6em;
-        line-height: 1.8em;*/
     }
 
     pre {
