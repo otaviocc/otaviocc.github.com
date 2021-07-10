@@ -2,6 +2,7 @@
 title:  How to replace type methods in Swift to improve testability
 date:   2020-05-21 12:00:00 -0100
 layout:   default
+description: Is it possible to test code which interact with class/static methods?
 ---
 
 Like them or not, [type methods](https://docs.swift.org/swift-book/LanguageGuide/Methods.html), aka *class methods* or *static methods*, are heavily used in Swift and part of our daily lives as developers. 

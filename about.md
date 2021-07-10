@@ -2,6 +2,7 @@
 layout: default
 title: About
 permalink: /about/
+description: Who? Where? When?
 ---
 
 I'm Otávio, a Physicist and Software Engineer from Brazil living abroad for almost 10 years. I build software for macOS and iOS, after years working with Linux and Embedded Systems.

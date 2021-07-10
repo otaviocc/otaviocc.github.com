@@ -2,6 +2,7 @@
 title: Reachability using NWPathMonitor and Combine
 date: 2021-02-21 02:00:00 -0100
 layout:   default
+description: How to create a custom publisher for the NWPathMonitor?
 ---
 
 About a month ago I decided to build a new app to attend a personal need, a desktop client for [Pinboard](https://pinboard.in), a service I've been using for over a decade to store and manage my bookmarks.

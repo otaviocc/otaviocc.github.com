@@ -2,6 +2,7 @@
 layout: default
 title: /now
 permalink: /now/
+description: I'm currently...
 ---
 
 ## 🔭 Working
