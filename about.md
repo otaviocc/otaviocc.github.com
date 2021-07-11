@@ -30,6 +30,6 @@ Social:
 
 * [GitHub](https://github.com/otaviocc)
 * [Twitter](https://twitter.com/otaviocc)
-* [Mastodon](Mastodon)
+* [Mastodon](https://mastodon.social/@otaviocc)
 * [Keybase](https://keybase.io/otaviocordeiro) (proofs and public key)
 * [LinkedIn](https://www.linkedin.com/in/otaviocc)
