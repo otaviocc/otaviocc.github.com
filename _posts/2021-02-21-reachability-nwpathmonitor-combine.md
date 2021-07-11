@@ -2,7 +2,7 @@
 title: Reachability using NWPathMonitor and Combine
 date: 2021-02-21 02:00:00 -0100
 layout:   default
-description: How to create a custom publisher for the NWPathMonitor?
+description: How to create a custom publisher for network changes?
 ---
 
 About a month ago I decided to build a new app to attend a personal need, a desktop client for [Pinboard](https://pinboard.in), a service I've been using for over a decade to store and manage my bookmarks.
@@ -240,7 +240,7 @@ extension NWPathMonitor {
 }
 ```
 
-With all in place, the View Model becomes extremely simple and elegant. Below a View Model which publishes a boolean indicating the conectivity status to the View.
+With all in place, the View Model becomes extremely simple and elegant. Below a View Model which publishes a boolean indicating the connectivity status to the View.
 
 ```swift
 final class ViewModel: ObservableObject {
