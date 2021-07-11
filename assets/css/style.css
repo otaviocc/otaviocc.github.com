@@ -9,8 +9,7 @@ body {
 }
 
 pre, code {
-    font-size: 1em;
-    line-height: 1.2em;
+    white-space: pre;
 }
 
 main {
