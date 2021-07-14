@@ -68,7 +68,6 @@ final class SearchResultsTableViewDataSource: NSObject, UITableViewDataSource {
 
     // ... UITableViewDataSource methods ...
 }
-
 ```
 
 If `APIWrapper` had an instance method instead of a type method, two easy and obvious solutions would emerge: *protocols* and *subclasses*. Using either/or it would be possible to replace the wrapper with a [test double](https://martinfowler.com/bliki/TestDouble.html) that captures the query parameter and completion block for verifying expectations.
